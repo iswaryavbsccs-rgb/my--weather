@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>🌦 Weather App</h1>
+      <h1>🌦 Weather application</h1>
       <SearchBar onSearch={handleSearch} />
       {loading && <Loader />}
       {weather && <WeatherCard data={weather} />}
